@@ -1,5 +1,5 @@
-a = int(input(Escreva um número))
-b = int(input(Escreva um número))
+a = int(input("Escreva um número'))
+b = int(input("Escreva um número"))
 
 soma = a + b
 print("Soma:", soma)
