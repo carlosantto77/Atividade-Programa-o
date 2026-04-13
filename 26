@@ -1,0 +1,10 @@
+a = int(input("numero aqui"))
+ 
+if a < 0:
+    print("Negativo ou zero")
+elif a <= 10:
+    print("Pequeno")
+elif a <= 100:
+    print("Médio")
+else:
+    print("Grande")
