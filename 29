@@ -1,0 +1,9 @@
+a = int(input("numero aqui"))
+
+if a % 5 == 0:
+    if a > 50:
+        print("Múltiplo alto")
+    else:
+        print("Múltiplo baixo")
+else:
+    print("Não é múltiplo")
