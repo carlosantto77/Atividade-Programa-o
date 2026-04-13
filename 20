@@ -1,0 +1,6 @@
+a = int(input("Dgite aqui"))
+
+if a < 0 or a > 100:
+    print(a)
+
+
