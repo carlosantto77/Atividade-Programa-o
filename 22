@@ -8,3 +8,4 @@ if a.isnumeric():
         print("Baixo")
 else:
     print("Entrada inválida")
+
