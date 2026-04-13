@@ -1,0 +1,12 @@
+a = int(input(Escreva um número))
+b = int(input(Escreva um número))
+
+soma = a + b
+print("Soma:", soma)
+
+if a > b:
+    print("A é maior")
+elif b > a:
+    print("B é maior")
+else:
+    print("São iguais")
