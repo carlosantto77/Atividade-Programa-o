@@ -1,0 +1,7 @@
+a = input("numero")
+
+try:
+    a = float(a)
+    print(a / 2)
+except:
+    print("Não numérico")
