@@ -1,0 +1,14 @@
+a = int(input("Digite um número"))
+
+if a == 0:
+    print("Neutro")
+elif a % 2 == 0:
+    if a > 0:
+        print("Par positivo")
+    else:
+        print("Par negativo")
+else:
+    if a > 0:
+        print("Impar positivo")
+    else:
+        print("Impar negativo")
