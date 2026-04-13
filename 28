@@ -1,0 +1,11 @@
+a = input("escreva numero")
+
+try:
+    if "." in a:
+        num = float(a)
+        print(num / 2)
+    else:
+        num = int(a)
+        print(num * 2)
+except:
+    print("Tipo inválido")
