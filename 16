@@ -1,0 +1,7 @@
+a = input(""Digite um número")
+
+print ("Tipo:", type(a))
+
+numero = int (a)
+print("Tipo depois:", type(numero))
+print("ao quadrado", nuemro * numero)
