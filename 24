@@ -1,0 +1,9 @@
+a = int(input("escreva um numero"))
+
+if a >= 1 and a <= 100:
+    if a % 2 == 0:
+        print("Par no intervalo")
+    else:
+        print("Ímpar no intervalo")
+else:
+    print("Fora do intervalo")
