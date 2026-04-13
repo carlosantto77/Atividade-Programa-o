@@ -1,0 +1,9 @@
+a = int(input( Escreva um número ))
+
+if a % 2 == 0:
+    if a > 0:
+        print("Par positivo")
+    else:
+        print("Par negativo")
+else:
+    print("Impar")
