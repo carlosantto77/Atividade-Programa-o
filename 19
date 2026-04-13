@@ -1,0 +1,7 @@
+a = int(input('digite um numero'))
+b = int(input('Digite um numero'))
+
+if a == b:
+    print("Iguais")
+else:
+    print("Diferença:", abs(a - b))
