@@ -1,0 +1,10 @@
+a = input("escreva aqui")
+
+if a.isnumeric():
+    a = int(a)
+    if a > 10:
+        print("Alto")
+    else:
+        print("Baixo")
+else:
+    print("Entrada inválida")
