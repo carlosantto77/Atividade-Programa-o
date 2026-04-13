@@ -1,0 +1,11 @@
+ 
+a = int(input("escreva um numero"))
+b = int(input("escreva um numero"))
+c = int(input("escreva um numero"))
+
+# ordenando
+lista = [a, b, c]
+lista.sort(reverse=True)
+
+print(lista)
+print("Resto da divisão do 3º por 3:", lista[2] % 3)
